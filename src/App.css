@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body  {
+  height: 100vh;
+  background:linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(252, 151, 0) 50%, rgb(0, 0, 0));
+}
+
+.texto {
+  color: rgb(0, 0, 0) !important; /* Cambiar por el color que desees */
+  text-align: center;
+}
+
+.remove-bg { 
+  filter: brightness(1.2); 
+  mix-blend-mode: multiply;
+ }
+
+.about {
+  margin-top: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px !important;
+}
+
+/* clientes */
+
+.clientes {
+  margin-top: 0px !important;
+  background-color: white;
+  text-align: center;
+  
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 500px; 
+  object-fit: cover;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+/* nav */
+.navbar {
+  background-color: white !important;
+  margin-bottom: 0 !important;
+  
+ 
+}
+
+.navbar .btn-primary {
+  background-color: #f18900; /* Cambiar el color de fondo */
+  border-color: #f18900; /* Cambiar el color del borde */
+  margin-left: 700px; /* Agregar margen derecho */
+}
+
+.navbar .btn-primary:hover {
+  background-color: #a86001; /* Cambiar el color de fondo al pasar el mouse */
+  border-color: #a86001; /* Cambiar el color del borde al pasar el mouse */
+}
+
+.offcanvas-header {
+  background-color: #f18900; /* Cambiar el color de fondo del encabezado */
+  color: #fff; /* Cambiar el color del texto del encabezado */
+}
+
+.offcanvas-body {
+  padding: 20px; /* Agregar relleno */
+}
