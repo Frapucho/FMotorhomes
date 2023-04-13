@@ -87,7 +87,7 @@ body  {
 .navbar .btn-primary {
   background-color: #f18900; /* Cambiar el color de fondo */
   border-color: #f18900; /* Cambiar el color del borde */
-  margin-left: 700px; /* Agregar margen derecho */
+  margin-left: fluid; /* Agregar margen derecho */
 }
 
 .navbar .btn-primary:hover {
